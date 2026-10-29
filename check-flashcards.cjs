@@ -4,6 +4,8 @@ const storage=new Map(),context=vm.createContext({document:{getElementById:eleme
 vm.runInContext(fs.readFileSync('dist/flashcards/questions.js','utf8'),context);vm.runInContext(fs.readFileSync('dist/flashcards/app.js','utf8'),context);
 const run=s=>vm.runInContext(s,context);
 assert.equal(run('questions.length'),224);assert.equal(run('questions.reduce((n,q)=>n+q.blanks,0)'),306);assert.equal(run('round.ids.length'),20);
+assert(run("byId.get(89).text.includes('{{月眉石槽}}')"));
+assert(!run("questions.some(q=>q.text.includes('月眉石棺'))"));
 assert(!element('sentence').innerHTML.includes('亞洲'));assert(element('sentence').innerHTML.includes('aria-label="空格"'));
 run('flip()');assert(element('sentence').innerHTML.includes('亞洲'));run("mark('review')");assert.equal(run("record[1]"),'review');assert.equal(run('round.index'),1);assert.equal(run('revealed'),false);
 run("flip();mark('known')");assert.equal(run("record[2]"),'known');run('move(-1)');assert.equal(run('revealed'),false);

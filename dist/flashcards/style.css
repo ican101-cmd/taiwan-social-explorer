@@ -9,3 +9,5 @@
 .puzzle-open{margin-left:0}.intro{margin-bottom:18px}
 @media(max-width:600px){.puzzle-mini{grid-template-columns:140px minmax(0,1fr);column-gap:13px;row-gap:5px;padding:12px;margin-bottom:16px}.puzzle-mini>.puzzle-svg{width:100%;grid-row:span 2}.puzzle-mini strong{font-size:14px}.puzzle-mini small{font-size:11px;margin-top:5px}.puzzle-open{grid-column:2;justify-self:start;align-self:start;font-size:11px}.intro{margin-bottom:12px}}
 @media(max-width:350px){.puzzle-mini{grid-template-columns:140px minmax(0,1fr);gap:9px}.puzzle-mini strong{font-size:12px}.puzzle-mini small{font-size:10px}}
+
+.puzzle-open.puzzle-update{color:#286348;font-weight:700;white-space:normal;line-height:1.6}

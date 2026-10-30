@@ -7,3 +7,6 @@ node_modules/
 Thumbs.db
 .codex-remote-attachments/
 *.tar.gz
+
+# One-off local editing scripts; not needed to run the app.
+/*.py

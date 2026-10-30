@@ -2,10 +2,12 @@
   "name": "taiwan-social-explorer",
   "version": "1.0.0",
   "private": true,
-  "description": "臺灣社會地圖探險與224題填空閃卡",
+  "description": "臺灣社會地圖探險與203題填空閃卡",
   "scripts": {
     "dev": "node preview.cjs",
-    "test": "node --check dist/app.js && node --check dist/flashcards/app.js && node check-flashcards.cjs"
+    "test": "node --check dist/app.js && node --check dist/flashcards/app.js && node --check dist/flashcards/puzzles.js && node check-flashcards.cjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

@@ -1,5 +1,12 @@
 # 臺灣小小探險家與社會填空閃卡
 
+## 直接遊玩
+
+- [填空閃卡拼圖遊戲](https://ican101-cmd.github.io/taiwan-social-explorer/flashcards/)
+- [地圖探險遊戲](https://ican101-cmd.github.io/taiwan-social-explorer/)
+
+手機與電腦瀏覽器皆可開啟，無需登入。進度保存在各自的瀏覽器。
+
 依翰林版國小五年級上學期社會第一、第二單元整理的網頁練習工具。
 
 ## 功能
